@@ -1,5 +1,12 @@
-To create python server:
+* To create python server:
 python3 -m http.server "port number"
 
 example: python3 -m http.server 8080
 
+* To start a program on start up:
+	systemctl enable "programname"
+example: systemctl enable ssh
+
+BASH SCRIPTING:
+
+ 
