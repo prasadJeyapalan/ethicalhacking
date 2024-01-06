@@ -11,11 +11,22 @@ class Shoes:
 		def change(self, budget):
 			return (budget - self.price)
 			
-		def buy (self, budget)
+		def buy (self, budget):
 			self.budget_check(budget)
 			
 			if budget >= self.price:
 				print(f"You can buy {self.name}")
-			else:
-				print("you have 
 				
+				if budget == self.price:
+				
+					print("you have just enough money for these shoes")
+				else:
+					print(f"You can buy these shoes and have $ {self.change(budget)} left over")
+				
+				exit("Thanks for usng this app")
+			else:
+				print("Sorry you do not have enough money to buy any shoes")
+				
+		
+		
+			

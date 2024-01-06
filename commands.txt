@@ -7,6 +7,18 @@ example: python3 -m http.server 8080
 	systemctl enable "programname"
 example: systemctl enable ssh
 
-BASH SCRIPTING:
+Tools:
 
+Target Validation: Whois, nslookup, dnsrecon
+Finding subdomains: Google Fu, dig, nmap, sublist3r, Bluto, crt.sh, etc.
+Fingerprinting: Nmap, wappalyzer, whatweb, Builtwith, netcat
+Databreaches: HaveBeenPwned, Breach-Parse, weleakinfo
+
+bugcrowd.com
+
+email gathering:
+
+hunter.io
+phonebook.cz
+clearbit.com - can only be used with chrome
  
